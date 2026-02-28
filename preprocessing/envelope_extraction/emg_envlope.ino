@@ -1,5 +1,5 @@
-# Adapted from Upside Down Labs
-# Used for EMG envelope extraction
+// Adapted from Upside Down Labs
+// Used for EMG envelope extraction
 
 #define SAMPLE_RATE 500
 #define BAUD_RATE 115200
@@ -85,3 +85,4 @@ float EMGFilter(float input)
   }
   return output;
 }
+
